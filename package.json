@@ -1,0 +1,52 @@
+{
+  "name": "getutc-mcp",
+  "version": "1.0.0",
+  "description": "🕐 A reliable MCP server providing accurate UTC time from multiple verified sources. Ready to use out of the box!",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "getutc-mcp": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/index.ts",
+    "start": "node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "utc",
+    "time",
+    "server",
+    "claude",
+    "amazon-q",
+    "ai-tools"
+  ],
+  "author": "very99",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/very99/getutc-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/very99/getutc-mcp/issues"
+  },
+  "homepage": "https://github.com/very99/getutc-mcp#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "tsx": "^4.0.0",
+    "@types/node": "^20.0.0"
+  },
+  "files": [
+    "dist/",
+    "README.md",
+    "LICENSE"
+  ]
+}
